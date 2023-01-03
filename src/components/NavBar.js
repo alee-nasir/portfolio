@@ -7,7 +7,7 @@ import "../components/NavBar.css";
 const NavBar = () => {
   return (
     <Navbar bg="dark" expand="lg" variant="dark">
-      <Container className="mt-2 mb-2">
+      <Container className="mt-1 mb-1">
         <Navbar.Brand href="#home">
           <img className="logo" src={logo} alt="logo" />
         </Navbar.Brand>

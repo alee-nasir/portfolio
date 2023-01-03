@@ -1,8 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
-
-body {
-  font-family: "Roboto Condensed" sans-serif;
-}
 .logo {
   width: 150px;
 }
@@ -10,7 +5,7 @@ body {
 .navlink {
   font-size: 14px;
   letter-spacing: 0.6px;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
 }
 .navlink a {
   color: rgb(202, 202, 202);
@@ -24,7 +19,7 @@ body {
 }
 .navlink a.active,
 .navlink a.active:focus {
-  border-top: 2px solid rgb(24, 144, 195);
-  color: rgb(24, 144, 195);
+  border-top: 2px solid rgb(255, 150, 37);
+  color: rgb(255, 150, 37);
   transition: ease-in-out 0.2s;
 }

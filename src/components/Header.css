@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
+body {
+  font-family: "Roboto Condensed";
+}
+
+.header-wraper {
+  position: relative;
+  background: url(../assets/headerimage1.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 90vh;
+}
+
+.main-info {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: rgb(0, 0, 0);
+  opacity: 0.7;
+}
+
+.main-info h1 {
+  color: rgb(255, 150, 37);
+  text-transform: uppercase;
+}
+
+/* ************Typed Text*********** */
+
+.typed-text {
+  font-size: 24px;
+  color: white;
+  margin-bottom: 50px;
+}
+.btn {
+  margin-bottom: 280px;
+}
